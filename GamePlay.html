@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="jquery.3.4.1.min.js"></script>
+    <script src="GamePlayScript.js"></script>
+    <script src="HighScoresScript.js"></script>
+    <link href="HighScoresStyle.css" rel="stylesheet" />
+    <link href="GamePlayStyle.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div id="counter">0</div>
+    <div id="numOfFlagsDIV">
+        # <img height="15" src="Pics/flagIns.jpg" /> = <div id="numOfFlags">
+    </div>
+    </div>
+    <div id="btn"><input id="TryAgain" type="button" value="Try Again" disabled onclick="Restart()" /></div><br />
+    <div id="ScoreDiv"></div><br>
+    <div id="rightSide">
+       <div id="instructions">
+         <p>Instructions:</p>
+            <p>
+                <img id="InsIcons" src="Pics/rightclick.jpg" />
+                =
+                <img id="InsIcons" src="Pics/flagIns.jpg" />
+            </p>
+            <p>
+                <img id="InsIcons" src="Pics/leftclick.jpg" />
+                =
+                <img id="InsIcons" src="Pics/mineIns.jpg" />
+            </p>
+       </div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+       <div id="logoutDiv">
+            <button id="logout" onclick="Lougout()">LogOut</button>
+       </div>
+    </div>
+</body>
+</html>
