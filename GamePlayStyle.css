@@ -1,0 +1,195 @@
+﻿body {
+	background-color: #72A4BD; /*#4C5158*/
+	text-align: center;
+}
+
+#counter {
+	border: 2px solid black;
+	width: 50px;
+	height: 20px;
+	margin-left: 9%;
+	display: inline-block;
+	background-color: white;
+}
+
+#InsIcons {
+	height: 20px;
+	width: auto;
+}
+
+#instructions {
+	background-color: #B9B9B9;
+	font: bold 16px ariel;
+	color: white;
+	height: 130px;
+	width: 100px;
+}
+
+#rightSide {
+	position: relative;
+	float: right;
+	width: 11%;
+	text-align: center;
+	right: 5%;
+}
+
+#logout {
+	background-color: #DED4C1;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border: 1.5px solid black;
+	font: bold 16px david;
+	box-shadow: inset #a39c8e 0px 0px 2px 2.5px;
+}
+
+#logout:hover {
+	animation: playAnimation 3s linear infinite alternate;
+}
+
+#TryAgain:enabled {
+	background-color: #565670
+}
+
+#TryAgain:enabled:hover {
+		background-color: #b4b4d1;
+		color: #565670;
+		box-shadow: black 1px 1px 3px 2px;
+}
+
+#btn {
+	width: 10%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+#numOfFlags, #numOfFlagsDIV {
+	background-color: #B9B9B9;
+	color: mintcream;
+	font-size: 12px;
+	display: inline-block;
+	width: 15%;
+}
+
+#numOfFlagsDIV {
+	line-height: 20px;
+	height: 20px;
+	border: 2px solid black;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#numOfFlags {
+	height: 80%;
+}
+
+#TryAgain {
+	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: #DED4C1;
+	height: 330px;
+	width: 330px;
+}
+
+td, tr {
+	border: 1.5px solid black;
+}
+
+td {
+	background-image: url('Pics/tile0.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.mine {
+	background-image: url('Pics/tilemine.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.zero {
+	background-image: url('Pics/tileZero.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.one {
+	background-image: url('Pics/tile1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.two {
+	background-image: url('Pics/tile2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.three {
+	background-image: url('Pics/tile3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.four {
+	background-image: url('Pics/tile4.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.five {
+	background-image: url('Pics/tile5.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.six {
+	background-image: url('Pics/tile6.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.seven {
+	background-image: url('Pics/tile7.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.eight {
+	background-image: url('Pics/tile8.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.flag {
+	background-image: url('Pics/flag.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.wrong {
+	background-image: url('Pics/Wrongflag.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+@keyframes playAnimation {
+	0% {
+		background-color: #577399;
+	}
+
+	25% {
+		background-color: #669EC5;
+	}
+
+	50% {
+		background-color: #DED4C1;
+	}
+
+	100% {
+		background-color: #DE8B57;
+	}
+}

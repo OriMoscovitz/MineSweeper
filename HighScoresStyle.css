@@ -1,0 +1,35 @@
+﻿#ScoreDiv {
+	background-color: #E5E5F3;
+	width: 20%;
+	float: left;
+}
+
+#ScoreTable {
+	border-collapse: collapse;
+	background-color: #E5E5F3;
+	height: 330px;
+	width: 200px;
+	text-align: center;
+}
+
+#instructions {
+	background-color: #E5E5F3;
+	width: 20%;
+	float: right;
+	margin-right: 5%;
+	height: 55px;
+	width: 70px;
+	border: 1px solid black;
+	box-shadow: black 1px 1px 3px 2px;
+}
+
+.hsTDTR {
+	background-image: none;
+	height: 20px;
+}
+
+#name0, #score0 {
+	background-color: #495867;
+	font: bold 22px david;
+	color: #c1c1d4;
+}
